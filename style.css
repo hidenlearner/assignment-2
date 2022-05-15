@@ -143,6 +143,7 @@ header nav ul li a {
 }
 
 .future-product {
+  display: flex;
   justify-content: center;
   margin-top: 70px;
 }
@@ -197,3 +198,73 @@ footer {
   border-radius: 100%;
   padding: 4px 7px;
 }
+.shop {
+  display: none;
+}
+.shop li {
+  list-style: none;
+}
+@media (max-width: 700px) {
+  .textss {
+    text-align: center;
+  }
+  .header-contents {
+    display: block;
+    width: 300px;
+    margin: 0 auto;
+  }
+  .flex-babu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .promotion,
+  .future-product {
+    justify-content: center;
+  }
+  .influger-intro-thim img {
+    height: 100px;
+    width: 100px;
+  }
+  .influger-intro-details h1 {
+    font-size: 20px;
+  }
+  .influger-intro-details {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .future-product {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .future-product div > img {
+    margin: 0 auto;
+    height: 60px;
+    width: 60px;
+  }
+  .promotion div > img {
+    margin-top: 20px;
+  }
+
+  .card-section {
+    display: block;
+  }
+  .card-section div {
+    text-align: center;
+    border-radius: 20px;
+  }
+  .header nav {
+    display: none;
+  }
+  .shop {
+    display: block;
+  }
+}
+
+/* @media (max-width: 1100px) {
+  body {
+    background-color: royalblue;
+  }
+} */
