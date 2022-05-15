@@ -69,7 +69,8 @@ header nav ul li a {
   margin-bottom: 8px;
 }
 
-.influger-intro-details button {
+.influger-intro-details button,
+.btn-link {
   background-color: #303a3b;
   padding: 12px 50px;
   color: white;
@@ -108,6 +109,7 @@ header nav ul li a {
   text-align: center;
   padding: 10px;
   margin-bottom: 40px;
+  grid-column-gap: 10px;
 }
 
 .card-section > div {
@@ -132,4 +134,66 @@ header nav ul li a {
 
 .card-section > div > h3 {
   margin: 10px 0px;
+}
+
+.last-box {
+  grid-column-start: 1;
+  grid-column-end: -1;
+  bottom: 0;
+}
+
+.future-product {
+  justify-content: center;
+  margin-top: 70px;
+}
+
+.future-product > :first-child img {
+  width: 400px;
+  height: 350px;
+  border-radius: 20px;
+  margin-right: 80px;
+}
+
+.future-product > :last-child {
+  padding: 40px 4px;
+}
+
+.future-product > :last-child h1 {
+  font-size: 30px;
+}
+
+.future-product > :last-child p {
+  line-height: 27px;
+  margin: 15px 0;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: 300;
+}
+
+footer {
+  background-color: rgb(41, 47, 80);
+  color: white;
+  margin-top: 30px;
+  padding: 10px, 0;
+}
+
+.footer {
+  display: grid;
+  justify-items: center;
+}
+.footer p {
+  font-size: 10px;
+}
+
+.footer h2 {
+  font-size: 20px;
+}
+.footer div {
+  margin-top: 20px;
+}
+.footer div a {
+  color: white;
+  margin: 42px 3px;
+  border: 1px solid gainsboro;
+  border-radius: 100%;
+  padding: 4px 7px;
 }
